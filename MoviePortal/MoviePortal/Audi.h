@@ -33,5 +33,5 @@ void Audi::initialize(Movie *movie, int maxGoldSeat, int maxSilverSeat, list<lon
 	for (int curTime = 0; curTime < showTimes.size(); curTime++) {
 		Seat *seat = new GoldSeat(0,1);
 	}
-
+	//comments here;
 }
